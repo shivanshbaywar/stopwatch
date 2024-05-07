@@ -1,0 +1,42 @@
+.stopwatch{
+    margin-top: 5%;
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#display{
+    width: 520px;
+    font-size: 100px;
+    display: contents;
+    font-family: monospace;
+}
+div.btns{
+    display: flex;
+    flex-direction: row;
+}
+div button{
+    margin: 10px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: grey;
+    border-width: inherit;
+    box-shadow: 0px 11px 24px grey;
+    margin: 10px;
+}
+div button:active{
+    background-color: black;
+    color:white;
+}
+div button:hover{
+    cursor: pointer;
+}
+
+.container{
+    background-color: beige;
+    border-radius: 20px;
+}
